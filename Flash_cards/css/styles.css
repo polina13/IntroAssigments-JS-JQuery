@@ -1,0 +1,30 @@
+.types-show {
+  display: none;
+}
+
+.variables-show {
+  display: none;
+}
+.parameters-show {
+  display: none;
+}
+
+.operators-show {
+  display: none;
+}
+
+.functions-show {
+  display: none;
+}
+
+.comments-show {
+  display: none;
+}
+
+.panel-body {
+  height: 250px;
+}
+
+ul {
+  list-style-type: none;
+}
