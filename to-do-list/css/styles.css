@@ -1,0 +1,35 @@
+h1{
+  background-color: tomato;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container {
+  max-width: 500px;
+  border: 2px solid #746958;
+  padding-bottom: 200px;
+  margin-top: 100px;
+  -webkit-box-shadow: 14px 14px 5px -4px rgba(230,228,224,1);
+  -moz-box-shadow: 14px 14px 5px -4px rgba(230,228,224,1);
+  box-shadow: 14px 14px 5px -4px rgba(230,228,224,1);
+}
+
+.btn-warning {
+  background-color: #f7895f;
+}
+
+.btn-warning:hover {
+  background-color: #f7aa8c;
+}
+
+.btn-default {
+  background-color: #b6ada0;
+}
+
+.btn-default:hover {
+  background-color: #cec9c0;
+}
+
+body {
+  font-family: sans-serif;
+}
