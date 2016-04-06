@@ -1,0 +1,8 @@
+#turtle, #snake, #insect, #other {
+  display: none;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
