@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Bank Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bank Account</h1>
+    </div>
+    <div class="container">
+      <h2>Sign up for a bank account :</h2>
+      <form id="new-account">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="initial-deposit">Initial Deposit</label>
+          <input type="text" class="form-control" id="initial-deposit">
+        </div>
+        <button type="submit" class ="btn">Create Bank Account</button>
+      </form>
+    </div>
+    <div id="show-beginning">
+      <h2></h2>
+      <p id="create-account"></p>
+    </div>
+    <div class="container">
+      <form id= "bank-account">
+        <h1 id="account-name"></h1>
+        <h2>Account Balance: $ <span id="balance1"></span></h2>
+        <div id="deposit">
+          <div class="depositamount">
+            <div class="form-group">
+              <label for="depositamount">Deposit</label>
+              <input type="text" class="form-control" id="depositamount">
+            </div>
+            <div class="form-group">
+              <label for="withdraw">Withdrwal</label>
+              <input type="text" class="form-control" id="withdrawal">
+            </div>
+            </div>
+          </div>
+        <button type="submit" class="btn">Add</button>
+      </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
