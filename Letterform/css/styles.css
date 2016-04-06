@@ -1,0 +1,9 @@
+#story {
+  display: none;
+}
+
+p {
+  font-family: cursive;
+  background-color: #ffe5e5;
+  padding: 30px;
+}
