@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+     <h1>Fill in the blanks to complete the survey below!</h1>
+     <div id="blanks">
+       <form>
+         <div class="form-group">
+           <label for="person1">A name</label>
+           <input id="person1" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="food">Favorite food</label>
+           <input id="food" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="music">Favorite music</label>
+           <input id="music" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="number">Favorite number</label>
+           <input type="text" class="form-control" placeholder="enter a number">
+         </div>
+         <div class="form-group">
+           <label for="destination">Favorite destination</label>
+           <input id="destination" class="form-control" placeholder="enter a destination">
+         </div>
+         <div class="form-group">
+           <label for="color">Favorite color</label>
+           <input id="color" class="form-control" type="color" placeholder="enter a color">
+         </div>
+
+         <button type="submit" class="btn">Show me the survey results!</button>
+       </form>
+     </div>
+    <div id="survey">
+      <p>
+        Hello <span class="name"></span>.You like to eat delicious things and we will serve you <span class="food"></span> and send you to vacation in <span class="destination"></span> to see a concert with <span class="music"></span>.Your favorite color is <span class="color"></span>
+      </p>
+    </div>
+
+  </body>
+</html>
