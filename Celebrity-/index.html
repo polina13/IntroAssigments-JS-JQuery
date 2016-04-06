@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src=js/jquery-1.12.0.js></script>
+    <script src=js/scripts.js></script>
+    <title>Celebrity Dating!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Dating</h1>
+      <p>To get the best celebrity date ever, please fill out the following options:</p>
+      <form id="survey">
+       <label for="gender">Gender</label>
+       <select id="gender">
+         <option value="female">Female</option>
+         <option value="male">Male</option>
+       </select>
+       <label for="food">Food</label>
+       <select id="food">
+         <option value="vegetarian">Vegetarian</option>
+         <option value="mexican">Mexican</option>
+         <option value="mediterranean">Mediterranean</option>
+       </select>
+       <label for="drink">Drinks</label>
+       <select id="drink">
+         <option value="wine">Wine</option>
+         <option value="beer">Beer</option>
+         <option value="liquor">Liquor</option>
+       </select>
+       <br><br>
+       <button type="submit" class="btn">Get lucky!</button>
+     </form>
+
+      <div>
+        <p>The celebrity date compatible with you is:</p>
+      <div id="person1">
+        <h1>Natalie Portman</h1>
+      </div>
+      <div id="person2">
+        <h1>JayZ</h1>
+      </div>
+      <div id="person3">
+        <h1>Jessica Alba</h1>
+      </div>
+      <div id="person4">
+        <h1>Mario Lopez</h1>
+      </div>
+      <div id="error">
+        <h1>Sorry you're not compatible with any celebrity.</h1>
+      </div>
+
+    </div>
+  </body>
+</html>

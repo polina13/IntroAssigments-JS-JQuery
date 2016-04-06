@@ -1,0 +1,15 @@
+#person1, #person2, #person3, #person4, #error {
+  display: none;
+}
+
+p {
+  font-size: 14pt;
+  color: red;
+  padding: left;
+
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
