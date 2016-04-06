@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Movie-tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Tickets</h1>
+      <form id="movie-choices">
+        <div class="form-group">
+          <select class="form-control" id="movies">
+            <option value="2">Frozen</option>
+            <option value="1">Titanic</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select class="form-control" id="times">
+            <option value="1">11</option>
+            <option value="3">20</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select class="form-control" id="ages">
+            <option value="1">5-64</option>
+            <option value="65">65+</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-default">Buy Tickets</button>
+      </form>
+      <div id="results">
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
